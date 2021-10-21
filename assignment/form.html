@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Html</title>
+    <style>
+        *{
+            font-family:serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>프론트엔드 개발자 지원서</h1>
+    <div><strong>HTML,CSS,JAVASCRIPT</strong>에 대한 기술적 이해와 많은 경험이 있는분을 찾습니다.</div>
+    <hr>
+    <form>
+    <fieldset>
+        <legend>입사지원서</legend>
+        <br>
+        <strong>개인정보</strong>
+        <ul>
+            <li><label>이름</label><input type="text" name="name"></li>
+            <li><label>연락처</label><input type="text" name="call"></li>
+            <li><label>학과</label>
+                <select namae="major">
+                    <option value="computer education">컴퓨터교육과</option>
+                    <option value="computer engineering">컴퓨터공학과</option>
+                </select>
+            </li>
+        </ul>
+        <br>
+        <strong>지원 분야</strong>
+        <ul>
+            <li><input type="radio" name="checkfield" value="web publishing">웹 퍼블리싱</li>
+            <li><input type="radio" name="checkfield" value="web application">웹 어플리케이션</li>
+            <li><input type="radio" name="checkfield" value="web develope">웹 개발지원</li>
+        </ul>
+        <br>
+        <strong>지원 동기</strong>
+        <br>
+        <br>
+        <textarea cols="50" rows="10">지원동기를 작성해주세요.</textarea>
+        <br>
+        <button type="submit">접수하기</button>
+        <button type="reset">다시작성</button>
+    </fieldset>
+    </form>
+</body>
+</html>

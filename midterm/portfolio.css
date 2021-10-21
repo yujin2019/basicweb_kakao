@@ -1,0 +1,68 @@
+body, input, textarea, select, button {
+    font-size: 14px;
+    font-family: Dotum, '돋움', Helvetica, "Apple SD Gothic Neo", sans-serif;
+    }
+    
+   
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.header {
+    font-size: x-large;
+    background-color: #76D7C4;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    border-radius:20px;
+}
+.titlebox {
+    padding: 30px 50px;
+}
+.aside {
+    background-color:#EAFAF1 ;
+    grid-column: 1 ;
+    grid-row: 2 / 6 ;
+    border-radius: 20px;
+}
+.content {
+    background-color: #FDFEFE;
+    grid-column: 2 / 4;
+    grid-row: 2 / 6;
+    border-radius: 20px;
+}
+.footer {
+    background-color: #76D7C4;
+    grid-column: 1/ 4;
+    grid-row: 6;
+    border-radius: 20px;
+}
+.profilebox{
+    border-radius: 70%;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
+.pofile{
+  
+    object-fit: cover;
+}
+.asidelist{
+    padding: 50px 80px;
+}
+.contentbox{
+    border-radius: 20px;
+    background-color: #D1F2EB;
+}
+.table{
+    color: white;
+}
+iframe {
+    border: 1px solid black;
+    width: 100%;
+    background-color: white;
+}
+.information{
+    padding: 50px 10%;
+}
